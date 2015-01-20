@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<project name="Hello" basedir="/var/lib/jenkins/workspace/Hello" default="unit_test">
+  <target name="unit_test">
+    <exec command="cakerunner --cakephp-app-path app -R app/tests/cases" />
+  </target>
+</project>
